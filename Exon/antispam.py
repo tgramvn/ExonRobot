@@ -177,7 +177,7 @@ def detect_user(user_id, chat_id, message, parsing_date):
                     dispatcher.bot.kickChatMember(chat_id, user_id)
                     dispatcher.bot.sendMessage(
                         chat_id,
-                        "I'ᴠᴇ ʙᴀɴɴᴇᴅ ᴛʜᴇᴍ!",
+                        "Tôi đã cấm họ!",
                         reply_to_message_id=message.message_id,
                     )
                     return True
@@ -186,13 +186,13 @@ def detect_user(user_id, chat_id, message, parsing_date):
             if message.chat.type != "private":
                 dispatcher.bot.sendMessage(
                     chat_id,
-                    "ғʟᴏᴏᴅ ᴍᴇssᴀɢᴇ ᴡᴀs ᴅᴇᴛᴇᴄᴛᴇᴅ!\nI'ᴍ ᴏᴜᴛ, ɪɴᴠɪᴛᴇ ᴍᴇ ᴀɢᴀɪɴ ɪғ ᴛʜᴇ ғʟᴏᴏᴅ ʜᴀs sᴛᴏᴘᴘᴇᴅ 🙂\n\nᴛʜᴀɴᴋs",
+                    "Thông báo lũ lụt đã được phát hiện!\nI'ᴍ ᴏᴜᴛ, mời tôi một lần nữa nếu lũ lụt đã dừng lại 🙂",
                 )
                 dispatcher.bot.leaveChat(chat_id)
                 return True
         dispatcher.bot.sendMessage(
             chat_id,
-            "ʜᴇɪ! sᴍᴀʀᴛ ᴀɴᴛɪғʟᴏᴏᴅ ᴡᴀs ᴅᴇᴛᴇᴄᴛᴇᴅ ғᴏʀ ᴛʜɪs ᴜsᴇʀ!\n\nʏᴏᴜ ᴡɪʟʟ ʙᴇ ʀᴇsᴛʀɪᴄᴛᴇᴅ ғᴏʀ ᴀ ᴡʜɪʟᴇ.\n\nɪғ ʏᴏᴜ sᴛɪʟʟ ᴄᴏɴᴛɪɴᴜᴇs ɪ ᴡɪʟʟ ʙᴀɴ ᴀɴᴅ ᴄʀᴇᴀᴛᴇ ᴀ sᴘᴀᴍ ʀᴇᴘᴏʀᴛ ғᴏʀ ᴛʜɪs ᴜsᴇʀ!",
+            "Này! Chống lũ thông minh đã được phát hiện cho người dùng này! \n\nBạn sẽ bị hạn chế trong một thời gian.\n\nNếu bạn vẫn tiếp tục, tôi sẽ tìm và tạo một báo cáo thư rác cho người dùng này!",
             reply_to_message_id=message.message_id,
         )
         return True
