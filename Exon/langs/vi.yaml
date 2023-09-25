@@ -1,9 +1,9 @@
 # ʟᴀɴɢᴜᴀɢᴇ ɴᴀᴍᴇ ɪɴ ᴛʜᴇɪʀ ɴᴀᴛɪᴠᴇ
-language: "𝐇ɪɴᴅɪ "
+language: "Tiếng Việt"
 
 
 # ɴᴀᴍᴇ ᴏғ ᴘᴇᴏᴘʟᴇ(s) ᴡʜᴏ ᴡᴏʀᴋᴇᴅ ᴏɴ ᴛʜɪs ᴛʀᴀɴsʟᴀᴛɪᴏɴ
-authors: "@Abishnoi1M"
+authors: "@thayrio"
 
 # ʟᴀɴɢᴜᴀɢᴇs
 curr_chat_lang: "ʜᴇʏ. ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ʟᴀɴɢᴜᴀɢᴇ ɪs {}, sᴇʟᴇᴄᴛ ᴛʜᴇ ᴏɴᴇ ʏᴏᴜ ᴡᴀɴᴛ ғʀᴏᴍ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ :)"
@@ -12,37 +12,37 @@ set_chat_lang: "ɢʀᴇᴀᴛ, {} ɪᴛ ɪs ( ғʀᴏᴍ ɴᴏᴡ ᴏɴ!"
 
 
 pm_start_text: |
-   ʜɪ {},
-   {} ɪs ᴛʜᴇ *ᴍᴏsᴛ ᴄᴏᴍᴘʟᴇᴛᴇ* ʙᴏᴛ ᴛᴏ ʜᴇʟᴘ
-   ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ *ɢʀᴏᴜᴘs* ᴇᴀsɪʟʏ ᴀɴᴅ *sᴀғᴇʟʏ*.
-      ➣ *ᴜᴘᴛɪᴍᴇ :* {} 
-      ➣  *ᴜsᴇʀs :* 0{}
-      ➢  *ᴄʜᴀᴛs :* 0{}
+   Chào {},
+   {} là bot  *hoàn chỉnh nhất* để giúp đỡ
+   bạn quản lý *nhóm* của bạn dễ dàng và *hiệu quả*.
+      ➣ *Thời gian hoạt động :* {} 
+      ➣  *Người dùng :* 0{}
+      ➢  *Nhóm :* 0{}
   
   
-grp_start_text: "ʜɪ, ɪ'ᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ."
+grp_start_text: "Xin chào, tôi đang hoạt động."
    
    
 pm_help_text: |
-   ━━━━━━━ *ʜᴇʟᴘ* ━━━━━━━
-   ᴄʜᴏᴏsᴇ ᴏɴᴇ ᴏғ ᴛʜᴇ ᴄᴀᴛᴇɢᴏʀʏ ʙᴇʟᴏᴡ
-   ᴛᴏ sᴇᴇ ᴛʜᴇ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.
-   ➼ ᴜsᴇᴀʙʟᴇ ʜᴀɴᴅʟᴇʀ *:* (/ , !)
+   ━━━━━━━ * TRỢ GIÚP * ━━━━━━━
+   Chọn một trong các danh mục bên dưới
+   để xem các lệnh có sẵn.
+   ➼ Trình xử lý có thể sử dụng *:* (/ , !)
    ━━━━━━━ *ʜᴇʟᴘ* ━━━━━━━
 
 
-add_bot: "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ"
-help_menu: "📚 ʜᴇʟᴘ"
-about: "🏡 ᴀʙᴏᴜᴛ"
-owner: "🥀 ᴅᴇᴠᴇʟᴏᴘᴇʀ"
+add_bot: "➕ Thêm vào nhóm"
+help_menu: "📚 Trợ giúp"
+about: "🏡 Thông tin"
+owner: "🥀 Nhà phát triển"
 
 
 abishnoi_help: |
-    *ᴏɴʟʏ ᴀᴅᴍɪɴs ʜᴇʟᴘ ᴍᴇɴᴜ*
+   *Chỉ có menu trợ giúp của quản trị viên*
 
 
 kingAbishnoi_help: |
-    *ᴇxᴛʀᴀ ʜᴇʟᴘ ᴍᴇɴᴜ*
+    *Menu trợ giúp bổ sung*
  
  
 akboss_help: |
